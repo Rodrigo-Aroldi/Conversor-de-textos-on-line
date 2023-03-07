@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="conversor de textos on-line, transforme seus textos em maiúsculo, minúsculo e primeira letra maiúscula">
+    <meta name="keywords" content="conversor de textos, conversos de textos on-line, converter textos em maiúsculo,capitalize, lowercase, uppercase, converter texto em minúscula no excel,converter texto para maiúscula,converter texto em maiúsculo,como converter texto em maiúscula,conversão de texto em minúscula no excel,converter texto,converter texto em minúsculo,maiúscula,converter,converter de minúsculo para maiúsculo,converter minúsculo em maiúsculo,converter maiuscula em minuscula,converter minuscula em maiuscula,converter string em maiúsculo,converter texto para minusculo">
+    <meta name="author" content="Rodrigo Thomas Aroldi">
+    <link rel="shortcut icon" href="img/icon.png" type="imagem/imagem-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de textos on-line - Convert Case</title>
+</head>
+<body>
+
+    <header>
+        <nav class="caixa-pai">
+            <div class="logo-img">
+                <img src="img/icon-logo.png" alt="icon-globo">
+            </div>
+
+            <ul class="menu-navegacao">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Conversor</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <article>
+            
+            <section class=" secao-geral primeira-secao">
+                <h1>Converta seus textos em Maiúsculas ou Minúsculas</h1>
+                <p>
+                    Você está com um texto longo e escreveu em letra minúscula?
+                </p>
+
+                <p>
+                    Você escreveu todo seu texto em letra maiúscula?
+                </p>
+
+                <p>
+                    Basta usar nossa ferramenta, copiar colar e ser feliz.
+                </p>
+
+            </section>
+
+            <section class="secao-geral segunda-secao">
+            
+
+                <textarea id="caixaTexto" cols="48" rows="11" spellcheck="off" placeholder="digite ou cole seu texto aqui e, logo abaixo, seu texto estará pronto."></textarea>
+
+                <div>
+                    <p id="resultado">
+                        Após inserir seu texto, click no botão desejado e copie.
+                    </p>
+                </div>
+
+            </section>
+
+
+            <div class="caixa-btn">
+
+                <input class="btnGeral" id="btnPriMaiuscula" type="button" value="pri-maiúscula" onclick="priMaiuscula()">
+
+                <input class="btnGeral" id="btnMinuscula" type="button" value="minúscula" onclick="minuscula()">
+
+                <input class="btnGeral" id="btnMaiuscula" type="button" value="maiúscula" onclick="maiuscula()">
+
+                <input class="btnGeral" id="btnLimpar" type="button" value="limpar" onclick="limpar()">
+                
+
+                <button class="btnGeral" id="btnAjude"><a target="_blank" rel="next" href="https://www.mercadopago.com.br/checkout/v1/payment/redirect/f144d897-31d6-433f-88c8-fddc6396fc86/payment-option-form/?preference-id=494681236-ab502239-e3f6-46d3-8f33-26a33576fdce&router-request-id=15a0b11d-a43e-4b09-95a1-69349f82c2b9&source=link&p=2326d0d3ffcb8fb43ca7f71770efa5d8#/">Doe ajude com paypal</a></button>
+
+            </div>
+
+            <aside>
+                <div class="descricao-itens">
+                    <p class="itens">Pri-maiúscula: Primeira letra em maiúsculo.</p>
+                    <p class="itens">Minúscula: Todas as letras em minúscula.</p>
+                    <p class="itens">Maiúscula: Todas as letras em maiúsculo.</p>
+                    <p class="itens">Limpar: Click para limpar o texto.</p>
+                </div>
+            </aside>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2023 Rodrigo Thomas Aroldi</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
